@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
       subnick: 'Mi mensaje personal',
       age: 28,
       email: 'carlos@carlos.com',
-      friend: true,
+      friend: false,
       uid: 3
     };
     let usuario4: User = {
@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
       subnick: 'Mi mensaje personal',
       age: 28,
       email: 'juan@juan.com',
-      friend: true,
+      friend: false,
       uid: 5
     };
     this.friends = [usuario1, usuario2, usuario3, usuario4, usuario5];
